@@ -49,6 +49,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+// $route['default_controller'] = 'pages/view';
+// $route['(:any)'] = 'pages/view/$1';
+// $route['default_controller'] = 'User_details';
+// $route['default_controller'] = 'Login/concac';
+
+/////////test//////////////////////////
+// $route['default_controller'] = 'User_details';
+
+/////////LOGIN/////////////////////////////
+// $route['default_controller'] = 'Login';
+
+/////////REGISTER////////////////////////
+// $route['default_controller'] = 'Book/index';
+// $route['default_controller'] = 'Book/register';
+
+/////////HOME//////////////////////////////
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+//////////////////////////////////////////
+
+////////PATIENT////////////////////////////
+// $route['default_controller'] = 'Register';
+
+
+// $route['admin'] = 'Login/index';
+// $route['controller/form-validation'] = 'formValidation';
+
+// $route['(:any)']= 'Login/concac/$1';
+// $route['default_controller'] = 'folder/Form/index';

@@ -1,0 +1,31 @@
+header
+{
+  display: flex;
+  /* background-image: url("http://blog.edx.org/wp-content/uploads/2016/04/Math-1.jpg"); */
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 20px;
+  color:rgb(255, 0, 0);
+  margin-right: 5px;
+}
+#text1
+{
+  width: 80%;
+}
+#text
+{
+  padding: 10px;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AF3549/b7fa37299dbe40728545728e11a8c9ce.jpg/f/lego-city-hospital-60204.jpg);
+  width: 100%;
+}
+#footer2
+{
+  position: absolute;
+  /* background-image: url(https://pmcvariety.files.wordpress.com/2019/12/cheezit_teaser1_still.png?w=1000&h=563&crop=1); */
+  bottom: 0;
+  width: 100%;
+}
